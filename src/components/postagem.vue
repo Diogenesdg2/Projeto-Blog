@@ -25,10 +25,10 @@
 
 <template>
     <div id="container">
+        <h2>{{ titulo }}</h2>
+
         <img v-if="imagem" :src="imagem" alt="sem imagem">
-
-        <h1>{{ titulo }}</h1>
-
+      
         <p>{{ mensagem }}</p>
 
         <p>{{ autor }}</p>
@@ -51,8 +51,8 @@
     
 
 }
-#container h1{
-    position-anchor: top ;
+#container h2{
+    position: relative ;
     
     left: 110px;
     color: black;
@@ -61,7 +61,7 @@
 #container p:nth-of-type(1){
     color:black;
     display: flex;
-    margin-left: 110px;
+    margin-left: 50px;
 }
 #container :nth-child(3){
     size: 20px;
