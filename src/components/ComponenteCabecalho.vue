@@ -23,6 +23,7 @@
   <style>
   .etecCabecalho {
     display: flex;
+    justify-content: left;
     width: 75px;
     height: 75px;
   }

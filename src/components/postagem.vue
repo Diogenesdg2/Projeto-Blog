@@ -30,7 +30,7 @@
         <img v-if="imagem" :src="imagem" alt="sem imagem">
       
         <p>{{ mensagem }}</p>
-
+        <br>
         <p>{{ autor }}</p>
     </div>
 </template>
@@ -40,7 +40,7 @@
     position: relative;
     background-color: rgb(187, 181, 181);
     width: 1300px;
-    height: 950px;
+    height: 1000px;
 }
 
 #container img{
@@ -73,8 +73,8 @@
     margin-right: 10px;
 }
 
-#container :nth-child(4){
-    font-size: 20px;
+#container :nth-child(5){
+    font-size: 25px;
     color: black;
     display: flex;
     text-align: justify;

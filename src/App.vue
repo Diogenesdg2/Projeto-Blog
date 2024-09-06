@@ -42,7 +42,7 @@ export default{
         De um início humilde, ela evoluiu para uma grande participação no mundo digital dos dias atuais, oferecendo a plataforma confiável 
         na qual muitos serviços e aplicativos são desenvolvidos. Produtos e serviços novos e inovadores projetados para o futuro continuam 
         a confiar no Java também. Embora a maioria dos aplicativos Java modernos combine o runtime e o aplicativo Java, ainda há muitos 
-        aplicativos e até mesmo alguns sites que só funcionarão se você tiver um Java instalado no desktop."
+        aplicativos e até mesmo alguns sites que só funcionarão se você tiver um Java instalado no desktop." 
         autor="Diogenes D Gomes"/>
         <br>
         <postagem :imagem="post3Img" titulo="PHP" 
