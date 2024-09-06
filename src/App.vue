@@ -1,7 +1,7 @@
 <script>
-import MeuComponente from "./components/MeuComponente.vue"
 import postagem from "./components/postagem.vue"
 import post1Image from "./components/imgs/post1.jpg"
+import ComponenteCabecalho from "./components/ComponenteCabecalho.vue"
 export default{
         name:'App',
         components: {  
@@ -17,6 +17,9 @@ export default{
 </script>
 
 <template>
+    <div>
+        <ComponenteCabecalho />
+    </div>
     <div>
 
         <postagem :imagem="post1Image" titulo="MySQL" mensagem="Aqui vai a mensagem do post 1 " autor="Diogenes D Gomes"/>
