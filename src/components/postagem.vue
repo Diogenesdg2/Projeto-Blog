@@ -55,9 +55,6 @@
     color: black;       
 }
 
-
-
-
 #container :nth-child(2){
     font-size: 20px;
     color: black;

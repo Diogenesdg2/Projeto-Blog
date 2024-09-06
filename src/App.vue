@@ -6,26 +6,18 @@ import post2Img from "./components/imgs/post2.jpg"
 import post3Img from "./components/imgs/post3.jpg"
 export default{
         name:'App',
-        components: {  
+        components: { 
+            ComponenteCabecalho, 
             postagem
     },
     data() {
         return {
             
-            post1Img
-        };
-    },
-    data() {
-        return {
-            
-            post2Img
-        };
-    },
-    data() {
-        return {
-            
+            post1Img, 
+            post2Img,
             post3Img
         };
+   
     }
 }
 </script>
