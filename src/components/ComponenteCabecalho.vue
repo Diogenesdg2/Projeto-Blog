@@ -23,9 +23,11 @@
   <style>
   .etecCabecalho {
     display: flex;
+    width: 75px;
+    height: 75px;
   }
   
   .btnSair {
-    float: right;
+  
   }
   </style>
