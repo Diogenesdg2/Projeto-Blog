@@ -38,9 +38,9 @@
 <style scoped>
 #container{
     position: relative;
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(187, 181, 181);
     width: 1300px;
-    height: 720px;
+    height: 900px;
 }
 
 #container img{
@@ -52,18 +52,19 @@
 
 }
 #container h1{
-    position: absolute;
+    position-anchor: top ;
     
-    left: 100px;
+    left: 110px;
     color: black;
        
 }
 #container p:nth-of-type(1){
-    color: brown;
+    color:black;
     display: flex;
     margin-left: 110px;
 }
 #container :nth-child(3){
-    color: aquamarine;
+    size: 20px;
+    color: rgb(7, 7, 7);
 }
 </style>
