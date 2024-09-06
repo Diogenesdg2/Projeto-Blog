@@ -19,11 +19,11 @@ export default{
 <template>
     <div>
 
-        <postagem :imagem="post1Image" titulo="MySQL" mensagem="Aqui vai a mensagem do post 1 " autor="Diogenes Gomes"/>
+        <postagem :imagem="post1Image" titulo="MySQL" mensagem="Aqui vai a mensagem do post 1 " autor="Diogenes D Gomes"/>
         <br>
-        <postagem :imagem="post1Image" titulo="JAVA" mensagem="Aqui vai a mensagem do post 2 " autor="Diogenes Gomes"/>
+        <postagem :imagem="post1Image" titulo="JAVA" mensagem="Aqui vai a mensagem do post 2 " autor="Diogenes D Gomes"/>
         <br>
-        <postagem :imagem="post1Image" titulo="PHP" mensagem="Aqui vai a mensagem do post 3 " autor="Diogenes Gomes"/>
+        <postagem :imagem="post1Image" titulo="PHP" mensagem="Aqui vai a mensagem do post 3 " autor="Diogenes D Gomes"/>
     </div>
 </template>
 
