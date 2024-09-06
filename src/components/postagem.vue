@@ -25,7 +25,7 @@
 
 <template>
     <div id="container">
-        <h2>{{ titulo }}</h2>
+        <h1>{{ titulo }}</h1>
 
         <img v-if="imagem" :src="imagem" alt="sem imagem">
       
@@ -40,31 +40,46 @@
     position: relative;
     background-color: rgb(187, 181, 181);
     width: 1300px;
-    height: 900px;
+    height: 920px;
 }
 
 #container img{
     margin: 25px 75px;
     position: relative;
-    
-    
-    
-
 }
-#container h2{
+
+#container h1{
     position: relative ;
     
     left: 110px;
-    color: black;
-       
+    color: black;       
 }
+
 #container p:nth-of-type(1){
     color:black;
     display: flex;
     margin-left: 50px;
 }
-#container :nth-child(3){
-    size: 20px;
-    color: rgb(7, 7, 7);
+
+#container :nth-child(1){
+    font-size: 20px;
+    color: black;
 }
+
+#container :nth-child(2){
+    font-size: 20px;
+    color: black;
+}
+
+#container :nth-child(3){
+    font-size: 20px;
+    color: black;
+}
+
+#container :nth-child(4){
+    font-size: 20px;
+    color: black;
+
+}
+
 </style>

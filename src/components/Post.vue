@@ -31,6 +31,7 @@
         <p>
             {{ texto }}
         </p>
+        
         <p>{{ autor }}</p>
     </div>
     
