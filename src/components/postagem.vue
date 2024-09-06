@@ -40,7 +40,7 @@
     position: relative;
     background-color: rgb(187, 181, 181);
     width: 1300px;
-    height: 920px;
+    height: 950px;
 }
 
 #container img{
@@ -55,30 +55,34 @@
     color: black;       
 }
 
-#container p:nth-of-type(1){
-    color:black;
-    display: flex;
-    margin-left: 50px;
-}
 
-#container :nth-child(1){
-    font-size: 20px;
-    color: black;
-}
+
 
 #container :nth-child(2){
     font-size: 20px;
     color: black;
+    display: flex;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 10px;
 }
 
 #container :nth-child(3){
     font-size: 20px;
     color: black;
+    display: flex;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 10px;
 }
 
 #container :nth-child(4){
     font-size: 20px;
     color: black;
+    display: flex;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 10px;
 
 }
 
