@@ -1,20 +1,36 @@
 <script>
+import Botao from './Botao.vue';
 
+  export default{
+    name: "Cabeçalho",
+    props: {
+      logotipo:{
+        type: String,
+        required:false
+      },
+      textoBotao: {
+        type: String,
+        required: false
+      },
+      link: {
+        type: String,
+        required: false
+      },
+      components: {
+        Botao
+      }
+    }
+  }
 </script>
 
 <template>
     <div>
-      <header>
-  
+       
   <div class="etecCabecalho">
-    <img src="../assets/favicon.png">
+    <img :src="logotipo">
   </div>
+    <Botao textodoBotao="Acessar Agora" link="http://youtube.com.br" />
   
-  <div class="btnSair">
-    <img src="../assets/EXIT.png">
-  </div>
-  
-  </header>
   </div>
   
   </template>

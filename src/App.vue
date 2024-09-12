@@ -4,6 +4,8 @@ import postagem from            "./components/postagem.vue"
 import post1Img from            "./components/imgs/post1.jpg"
 import post2Img from            "./components/imgs/post2.jpg"
 import post3Img from            "./components/imgs/post3.jpg"
+import postlogo from            "./assets/favicon.png"
+
 export default{
         name:'App',
         components: { 
@@ -16,6 +18,7 @@ export default{
             post1Img, 
             post2Img,
             post3Img
+        
         };
    
     }
@@ -24,7 +27,9 @@ export default{
 
 <template>
     <div>
-        <ComponenteCabecalho />
+        <ComponenteCabecalho :logotipo="postlogo"
+        textoBotao="Acessar"
+        link="http://www.google.com.br"/>
     </div>
     <br>
     
